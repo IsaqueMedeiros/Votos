@@ -41,7 +41,7 @@ function HeaderComponent() {
               }
             >
               <li className="flex gap-2 items-center">
-                <a onClick={() => setOpenHeader(false)} href="/">
+                <a onClick={() => setOpenHeader(false)} href="/" className="text-lg">
                   Home
                 </a>
 
@@ -67,7 +67,7 @@ function HeaderComponent() {
               </li>
 
               <li className="flex gap-2 items-center">
-                <a onClick={() => setOpenHeader(false)} href="/">
+                <a onClick={() => setOpenHeader(false)} href="/" className="text-lg">
                   Casamentos
                 </a>
 
@@ -93,7 +93,7 @@ function HeaderComponent() {
               </li>
 
               <li className="flex gap-2 items-center">
-                <a onClick={() => setOpenHeader(false)} href="/">
+                <a onClick={() => setOpenHeader(false)} href="/" className="text-lg">
                   Votos
                 </a>
 
@@ -119,7 +119,7 @@ function HeaderComponent() {
               </li>
 
               <li className="flex gap-2 items-center">
-                <a onClick={() => setOpenHeader(false)} href="/">
+                <a onClick={() => setOpenHeader(false)} href="/" className="text-lg">
                   Contato
                 </a>
 
