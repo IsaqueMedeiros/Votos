@@ -1,8 +1,31 @@
+import HeaderComponent from "./components/HeaderComponent";
+import SectionComponent from "./components/layout/sectionComponent";
+
 function App() {
-  return(
-    <main>
-      Home
-    </main>
+  return (
+    <>
+      <HeaderComponent />
+
+      <SectionComponent sectionBg="bg-votosPink">
+        <div className="border-4 border-white rounded-2xl w-full p-8 flex flex-col gap-4 items-center md:flex-row md:justify-evenly">
+          <div className="text-white text-center flex flex-col gap-4 md:text-start">
+            <h1 className="text-5xl">Votos Cerimonial</h1>
+
+            <span className="text-lg">
+              Nós transformamos sonhos em <br className="hidden md:block" />
+              realidade
+            </span>
+          </div>
+
+          <img
+            src="public/media/VotosLogoWhite.webp"
+            alt="teste"
+            width={100}
+            height={100}
+          />
+        </div>
+      </SectionComponent>
+    </>
   );
 }
 
