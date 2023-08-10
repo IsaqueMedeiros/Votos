@@ -1,13 +1,12 @@
 import HeaderComponent from "./components/HeaderComponent";
-import SectionComponent from "./components/layout/sectionComponent";
-
+import SectionComponent from "./components/layout/SectionComponent";
 function App() {
 
   return (
     <main>
       <HeaderComponent />
 
-      <SectionComponent sectionBg="bg-votosPink" haveHeader={true}>
+      <SectionComponent sectionBg="bg-votosRed" haveHeader={true}>
         <div
           className="
           border-4 border-white rounded-[3rem] md:rounded-[5rem] w-full px-8 py-12 md:py-16

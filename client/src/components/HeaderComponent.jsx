@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { Link } from 'react-router-dom';
 
 function HeaderComponent() {
   const [openHeader, setOpenHeader] = useState(false);
@@ -28,11 +29,10 @@ function HeaderComponent() {
           </button>
 
           <div
-            className={`${
-              openHeader
-                ? "fixed top-0 right-0 w-full h-full z-40 max-md:backdrop-blur-[2px] md:relative md:bg-transparent md:w-auto md:h-auto"
-                : "hidden top-0 right-0 w-full md:block md:relative md:w-auto md:h-auto"
-            }`}
+            className={`${openHeader
+              ? "fixed top-0 right-0 w-full h-full z-40 max-md:backdrop-blur-[2px] md:relative md:bg-transparent md:w-auto md:h-auto"
+              : "hidden top-0 right-0 w-full md:block md:relative md:w-auto md:h-auto"
+              }`}
             onClick={() => setOpenHeader(false)}
           >
             <ul
@@ -56,9 +56,9 @@ function HeaderComponent() {
                     <path
                       fillRule="evenodd"
                       d="
-                        M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 
-                        0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 
-                        4a.5.5 0 0 1-.708-.708L13.293 
+                        M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5
+                        0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4
+                        4a.5.5 0 0 1-.708-.708L13.293
                         8.5H1.5A.5.5 0 0 1 1 8z
                       "
                     />
@@ -82,9 +82,9 @@ function HeaderComponent() {
                     <path
                       fillRule="evenodd"
                       d="
-                        M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 
-                        0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 
-                        4a.5.5 0 0 1-.708-.708L13.293 
+                        M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5
+                        0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4
+                        4a.5.5 0 0 1-.708-.708L13.293
                         8.5H1.5A.5.5 0 0 1 1 8z
                       "
                     />
@@ -108,9 +108,9 @@ function HeaderComponent() {
                     <path
                       fillRule="evenodd"
                       d="
-                        M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 
-                        0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 
-                        4a.5.5 0 0 1-.708-.708L13.293 
+                        M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5
+                        0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4
+                        4a.5.5 0 0 1-.708-.708L13.293
                         8.5H1.5A.5.5 0 0 1 1 8z
                       "
                     />
@@ -119,9 +119,9 @@ function HeaderComponent() {
               </li>
 
               <li className="flex gap-2 items-center">
-                <a onClick={() => setOpenHeader(false)} href="/" className="text-lg hover:opacity-60 duration-500">
+                <Link onClick={() => setOpenHeader(false)} to="/contato" className="text-lg hover:opacity-60 duration-500">
                   Contato
-                </a>
+                </Link>
 
                 <div className="md:hidden">
                   <svg
@@ -134,9 +134,9 @@ function HeaderComponent() {
                     <path
                       fillRule="evenodd"
                       d="
-                        M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 
-                        0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 
-                        4a.5.5 0 0 1-.708-.708L13.293 
+                        M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5
+                        0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4
+                        4a.5.5 0 0 1-.708-.708L13.293
                         8.5H1.5A.5.5 0 0 1 1 8z
                       "
                     />
