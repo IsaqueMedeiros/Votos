@@ -1,32 +1,36 @@
-import { useState } from "react";
-import reactLogo from "./assets/react.svg";
-import viteLogo from "/vite.svg";
+import HeaderComponent from "./components/HeaderComponent";
+import SectionComponent from "./components/layout/sectionComponent";
 
 function App() {
-  const [count, setCount] = useState(0);
-
   return (
     <>
-      <div>
-        <a href="https://vitejs.dev" target="_blank" rel="noreferrer">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank" rel="noreferrer">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
+      <HeaderComponent />
+
+      <SectionComponent sectionBg="bg-votosPink">
+        <div 
+        className="
+          border-4 border-white rounded-[5rem] w-full p-8 md:py-16 lg:py-24 
+          flex flex-col gap-8 items-center md:flex-row 
+          md:justify-evenly
+        "
+        >
+          <div className="text-white text-center flex flex-col gap-4 md:text-start">
+            <h1 className="text-5xl">Votos Cerimonial</h1>
+
+            <span className="text-lg">
+              Nós transformamos sonhos em <br className="hidden md:block" />
+              realidade
+            </span>
+          </div>
+
+          <img
+            src="public/media/VotosLogoWhite.webp"
+            alt="teste"
+            width={100}
+            height={100}
+          />
+        </div>
+      </SectionComponent>
     </>
   );
 }
