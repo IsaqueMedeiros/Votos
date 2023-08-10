@@ -7,7 +7,13 @@ function App() {
       <HeaderComponent />
 
       <SectionComponent sectionBg="bg-votosPink">
-        <div className="border-4 border-white rounded-2xl w-full p-8 md:py-16 flex flex-col gap-8 items-center md:flex-row md:justify-evenly">
+        <div 
+        className="
+          border-4 border-white rounded-[5rem] w-full p-8 md:py-16 lg:py-24 
+          flex flex-col gap-8 items-center md:flex-row 
+          md:justify-evenly
+        "
+        >
           <div className="text-white text-center flex flex-col gap-4 md:text-start">
             <h1 className="text-5xl">Votos Cerimonial</h1>
 
