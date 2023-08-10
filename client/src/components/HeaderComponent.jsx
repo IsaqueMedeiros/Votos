@@ -37,11 +37,11 @@ function HeaderComponent() {
           >
             <ul
               className={
-                "flex flex-col mt-14 md:mt-8 rounded-md p-4 md:flex-row py-2 md:ml-0 md:py-0 gap-4 md:gap-24 text-votosPink md:text-white bg-white w-[90%] md:w-[70%] max-w-[1000px] mx-auto md:bg-transparent"
+                "flex flex-col mt-14 md:mt-4 rounded-md p-4 md:flex-row py-2 md:ml-0 md:py-0 gap-4 md:gap-24 text-votosPink md:text-white bg-white w-[90%] md:w-[70%] max-w-[1000px] mx-auto md:bg-transparent"
               }
             >
               <li className="flex gap-2 items-center">
-                <a onClick={() => setOpenHeader(false)} href="/" className="text-lg">
+                <a onClick={() => setOpenHeader(false)} href="/" className="text-lg hover:opacity-60 duration-500">
                   Home
                 </a>
 
@@ -67,7 +67,7 @@ function HeaderComponent() {
               </li>
 
               <li className="flex gap-2 items-center">
-                <a onClick={() => setOpenHeader(false)} href="/" className="text-lg">
+                <a onClick={() => setOpenHeader(false)} href="/" className="text-lg hover:opacity-60 duration-500">
                   Casamentos
                 </a>
 
@@ -93,7 +93,7 @@ function HeaderComponent() {
               </li>
 
               <li className="flex gap-2 items-center">
-                <a onClick={() => setOpenHeader(false)} href="/" className="text-lg">
+                <a onClick={() => setOpenHeader(false)} href="/" className="text-lg hover:opacity-60 duration-500">
                   Votos
                 </a>
 
@@ -119,7 +119,7 @@ function HeaderComponent() {
               </li>
 
               <li className="flex gap-2 items-center">
-                <a onClick={() => setOpenHeader(false)} href="/" className="text-lg">
+                <a onClick={() => setOpenHeader(false)} href="/" className="text-lg hover:opacity-60 duration-500">
                   Contato
                 </a>
 
