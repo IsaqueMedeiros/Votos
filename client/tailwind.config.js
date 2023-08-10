@@ -11,6 +11,7 @@ export default {
         votosGreen: "#4c5444",
         votosBlue: "#2f707f",
         votosRed: "#a85d5d",
+        votosBlack: "#222022",
       },
     },
   },
