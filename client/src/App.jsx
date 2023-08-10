@@ -2,12 +2,7 @@ import HeaderComponent from "./components/HeaderComponent";
 import SectionComponent from "./components/layout/sectionComponent";
 
 function App() {
-<<<<<<< HEAD
-  return(
-    <>
-      Home
-    </>
-=======
+
   return (
     <main>
       <HeaderComponent />
@@ -15,8 +10,8 @@ function App() {
       <SectionComponent sectionBg="bg-votosPink" haveHeader={true}>
         <div
           className="
-          border-4 border-white rounded-[3rem] md:rounded-[5rem] w-full px-8 py-12 md:py-16 
-          flex flex-col gap-8 items-center md:flex-row 
+          border-4 border-white rounded-[3rem] md:rounded-[5rem] w-full px-8 py-12 md:py-16
+          flex flex-col gap-8 items-center md:flex-row
           md:justify-evenly
         "
         >
@@ -89,7 +84,6 @@ function App() {
         </div>
       </SectionComponent>
     </main>
->>>>>>> feature/home-page
   );
 }
 
