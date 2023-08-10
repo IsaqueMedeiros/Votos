@@ -9,7 +9,7 @@ function App() {
       <SectionComponent sectionBg="bg-votosPink" haveHeader={true}>
         <div
           className="
-          border-4 border-white rounded-[3rem] md:rounded-[5rem] w-full p-8 md:py-16 
+          border-4 border-white rounded-[3rem] md:rounded-[5rem] w-full px-8 py-12 md:py-16 
           flex flex-col gap-8 items-center md:flex-row 
           md:justify-evenly
         "
@@ -34,11 +34,11 @@ function App() {
 
       <SectionComponent sectionBg="bg-white" haveHeader={false}>
         <div className="w-full flex flex-col gap-8 py-8">
-          <div className="w-full flex flex-col gap-8 md:flex-row md:items-center md:justify-evenly">
+          <div className="w-full flex flex-col gap-8 md:flex-row md:items-center md:justify-between">
             <div className="w-full flex flex-col gap-8">
               <h2 className="text-5xl text-votosRed">Quem somos?</h2>
 
-              <p className="text-lg text-votosBlack max-w-xl">
+              <p className="text-lg text-votosBlack max-w-2xl">
                 Sempre antenadas com as tendências do mercado, trabalhamos com
                 oque amamos e nossa maior realização é ver a alegria e o brilho
                 no olhar de nossos clientes e de seus convidados, pois
@@ -53,7 +53,7 @@ function App() {
           <div className="w-full flex flex-col gap-8 md:flex-row md:items-center md:justify-between">
             <div className="rounded-full w-full max-w-[300px] aspect-square bg-black self-center"></div>
 
-            <div className="flex flex-col gap-8 max-w-xl">
+            <div className="flex flex-col gap-8 max-w-2xl">
               <p className="text-lg text-votosBlack">
                 Sempre antenadas com as tendências do mercado, trabalhamos com
                 oque amamos e nossa maior realização é ver a alegria e o brilho
