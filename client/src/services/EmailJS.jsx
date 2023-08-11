@@ -1,10 +1,18 @@
 import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
 import InputMask from "react-input-mask";
+import swal from 'sweetalert';
+
 
 
 export const EmailJS = (props) => {
     const form = useRef();
+    function Events() {
+        swal("Formulário Enviado");
+        setTimeout(function () {
+            location.reload();
+        }, 2000);
+    }
 
     const sendEmail = (e) => {
         e.preventDefault();
@@ -12,6 +20,7 @@ export const EmailJS = (props) => {
         emailjs.sendForm('service_l060764', 'template_kv8nqtb', form.current, '8A12cqd3pgDl66O5n')
             .then((result) => {
                 console.log(result.text);
+                Events()
             }, (error) => {
                 console.log(error.text);
             });
@@ -20,17 +29,18 @@ export const EmailJS = (props) => {
     return (
         <form ref={form} onSubmit={sendEmail} className=' h-3/5 lg:h-4/5 w-min flex flex-col items-end justify-center overflow-hidden'>
             <div className='h-full w-min flex flex-col justify-between items-start' >
-                <input className='outline-none placeholder-white text-white w-full bg-transparent border-b-2 border-white' placeholder=' Nome' type="text" name="user_name" />
-                <input className='outline-none placeholder-white text-white w-full bg-transparent border-b-2 border-white' placeholder=' E-mail' type="email" name="user_email" />
-                <InputMask className='outline-none placeholder-white text-white w-full bg-transparent border-b-2 border-white' placeholder=' Telefone' type="text" name="user_phone" mask="(99) 99999-9999" onChange={props.onChange} value={props.value} />
-                <select className='outline-none text-white w-full bg-transparent border-b-2 border-white' >
-                    <option className='outline-none bg-transparent' value="title" title="Title for Select">Tipo de evento</option>
-                    <option name="user_wedding" value="Wedding">Casamento</option>
-                    <option name="user_birthday" value="birthday">Aniversário</option>
-                </select>
+                <input required className='outline-none placeholder-white text-white w-full bg-transparent border-b-2 border-white' placeholder=' Nome' type="text" name="user_name" />
+                <input required className='outline-none placeholder-white text-white w-full bg-transparent border-b-2 border-white' placeholder=' E-mail' type="email" name="user_email" />
+                <InputMask required className='outline-none placeholder-white text-white w-full bg-transparent border-b-2 border-white' placeholder=' Telefone' type="text" name="user_phone" mask="(99) 99999-9999" onChange={props.onChange} value={props.value} />
+                <div className='outline-none text-white w-full bg-transparent border-b-2 border-white' >
+                    <input className=' appearance-none rounded-[0.5rem]	border-2 border-white w-3 h-3 focus:bg-votosBlue checked:bg-votosBlue hover:cursor-pointer	' type='checkbox' value={"Casamento"} name='user_wedding' />
+                    <label className='ml-2' >Aniversário</label>
+                    <input className='ml-6 appearance-none rounded-[0.5rem]	border-2 border-white w-3 h-3 focus:bg-votosBlue checked:bg-votosBlue hover:cursor-pointer	' type='checkbox' value={"Aniversário"} name='user_birthday' />
+                    <label className='ml-2'>Casamento</label>
+                </div>
                 <label htmlFor="FormTextArea" className='text-white'  >Complemento
                     <textarea id='FormTextArea' className='outline-none placeholder-white text-white bg-transparent border-2 border-white rounded-[0.5rem]' rows={3} cols={30} name="user_message" /></label>
-                <button type='submit' className="rounded-2xl shadow-md bg-[#faf9f6] text-black w-[10rem] py-0.5 flex items-center justify-center group hover:brightness-90 duration-500">
+                <button type='submit' className="rounded-2xl shadow-md bg-votosRed text-white w-[10rem] py-0.5 flex items-center justify-center group hover:brightness-90 duration-500 border-2 border-white">
                     Enviar
                     <svg
                         xmlns="http://www.w3.org/2000/svg"

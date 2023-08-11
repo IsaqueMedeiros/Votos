@@ -67,7 +67,11 @@ function HeaderComponent() {
               </li>
 
               <li className="flex gap-2 items-center">
+<<<<<<< HEAD
                 <Link to="/casamentos" onClick={() => setOpenHeader(false)} className="text-lg hover:opacity-60 hover:ml-2 duration-500">
+=======
+                <Link onClick={() => setOpenHeader(false)} to="/casamentos" className="text-lg hover:opacity-60 duration-500">
+>>>>>>> feature/CasamentoPage
                   Casamentos
                 </Link>
 
