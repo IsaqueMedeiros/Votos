@@ -67,8 +67,8 @@ const Votos = () => {
             </div>
           </div>
 
-          <div className="w-full flex flex-col mt-14 lg:flex-row md:justify-between gap-8">
-            <div className="w-fit flex flex-col gap-4">
+          <div className="w-full flex flex-col mt-14 lg:flex-row lg:justify-between gap-8">
+            <div className="w-full flex flex-col gap-4 md:w-fit">
               <h3 className="text-4xl text-votosRed">
                 Próximos <br className="sm:hidden" /> eventos
               </h3>
@@ -76,7 +76,7 @@ const Votos = () => {
               <LinkComponent title="Agende Conosco" href="/contato" />
             </div>
 
-            <div className="w-full max-w-md flex flex-col gap-4">
+            <div className="w-full max-w-md flex flex-col gap-4 md:self-center">
               {/* map aqui para cada item */}
               <div className="w-full flex flex-col md:flex-row gap-4 items-center">
                 <div className="w-full max-w-[150px] aspect-square bg-black"></div>
