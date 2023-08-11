@@ -76,7 +76,7 @@ const Votos = () => {
               <LinkComponent title="Agende Conosco" href="/contato" />
             </div>
 
-            <div className="w-full max-w-md flex flex-col gap-4 md:self-center">
+            <div className="w-full max-w-md flex flex-col gap-4 self-center">
               {/* map aqui para cada item */}
               <div className="w-full flex flex-col md:flex-row gap-4 items-center">
                 <div className="w-full max-w-[150px] aspect-square bg-black"></div>
