@@ -67,9 +67,9 @@ function HeaderComponent() {
               </li>
 
               <li className="flex gap-2 items-center">
-                <a onClick={() => setOpenHeader(false)} href="/" className="text-lg hover:opacity-60 duration-500">
+                <Link onClick={() => setOpenHeader(false)} to="/casamentos" className="text-lg hover:opacity-60 duration-500">
                   Casamentos
-                </a>
+                </Link>
 
                 <div className="md:hidden">
                   <svg
