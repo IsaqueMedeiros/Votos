@@ -41,9 +41,9 @@ function HeaderComponent() {
               }
             >
               <li className="flex gap-2 items-center">
-                <a onClick={() => setOpenHeader(false)} href="/" className="text-lg hover:opacity-60 duration-500">
+                <Link to="/" onClick={() => setOpenHeader(false)} className="text-lg hover:opacity-60 duration-500">
                   Home
-                </a>
+                </Link>
 
                 <div className="md:hidden">
                   <svg
@@ -67,9 +67,9 @@ function HeaderComponent() {
               </li>
 
               <li className="flex gap-2 items-center">
-                <a onClick={() => setOpenHeader(false)} href="/" className="text-lg hover:opacity-60 duration-500">
+                <Link to="/casamentos" onClick={() => setOpenHeader(false)} className="text-lg hover:opacity-60 duration-500">
                   Casamentos
-                </a>
+                </Link>
 
                 <div className="md:hidden">
                   <svg
@@ -93,9 +93,9 @@ function HeaderComponent() {
               </li>
 
               <li className="flex gap-2 items-center">
-                <a onClick={() => setOpenHeader(false)} href="/" className="text-lg hover:opacity-60 duration-500">
+                <Link to="/votos" onClick={() => setOpenHeader(false)} className="text-lg hover:opacity-60 duration-500">
                   Votos
-                </a>
+                </Link>
 
                 <div className="md:hidden">
                   <svg
@@ -119,7 +119,7 @@ function HeaderComponent() {
               </li>
 
               <li className="flex gap-2 items-center">
-                <Link onClick={() => setOpenHeader(false)} to="/contato" className="text-lg hover:opacity-60 duration-500">
+                <Link to="/contato "onClick={() => setOpenHeader(false)} className="text-lg hover:opacity-60 duration-500">
                   Contato
                 </Link>
 
