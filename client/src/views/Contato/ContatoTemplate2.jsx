@@ -9,7 +9,7 @@ const ContatoTemplate2 = () => {
         <main id="Contato" className='h-screen bg-votosPink flex flex-col justify-center items-center overflow-hidden'>
             <div className='h-[90%] lg:h-[75%] w-10/12 bg-votosRed flex flex-col lg:flex-row items-center justify-around rounded-[2.5rem] lg:rounded-[5rem] overflow-hidden' >
                 <div className=' flex flex-col  mr-[5rem] lg:mt-[-15rem]'>
-                    <h1 className='text-left text-white text-4xl lg:text-7xl' >Entre em <br />contato</h1>
+                    <h1 className='text-left text-votosPink text-4xl lg:text-7xl' >Entre em <br />contato</h1>
                     <p className='text-white lg:text-2xl mt-4' >Redes Sociais</p>
                     <div className='flex flex-row justify-start w-auto mt-2 ' >
                         <a href='https://www.instagram.com/votoscerimonialeassessoria/?hl=fr' >
