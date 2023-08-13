@@ -45,28 +45,28 @@ export default class Carousel extends Component {
         };
         return (
                     <Slider {...settings} >
-                        <div className="border-2 border-votosRed h-96  rounded-[1rem]" >
+                        <div className="border-2 border-votosPink h-96  rounded-[1rem]" >
 
                         </div>
-                        <div className="border-2 border-votosRed h-96  rounded-[1rem]">
+                        <div className="border-2 border-votosPink h-96  rounded-[1rem]">
 
                         </div>
-                        <div className="border-2 border-votosRed h-96  rounded-[1rem]">
+                        <div className="border-2 border-votosPink h-96  rounded-[1rem]">
 
                         </div>
-                        <div className="border-2 border-votosRed h-96  rounded-[1rem]">
+                        <div className="border-2 border-votosPink h-96  rounded-[1rem]">
 
                         </div>
-                        <div className="border-2 border-votosRed h-96  rounded-[1rem]">
+                        <div className="border-2 border-votosPink h-96  rounded-[1rem]">
 
                         </div>
-                        <div className="border-2 border-votosRed h-96  rounded-[1rem]">
+                        <div className="border-2 border-votosPink h-96  rounded-[1rem]">
 
                         </div>
-                        <div className="border-2 border-votosRed h-96  rounded-[1rem]">
+                        <div className="border-2 border-votosPink h-96  rounded-[1rem]">
 
                         </div>
-                        <div className="border-2 border-votosRed h-96  rounded-[1rem]">
+                        <div className="border-2 border-votosPink h-96  rounded-[1rem]">
 
                         </div>
                     </Slider>

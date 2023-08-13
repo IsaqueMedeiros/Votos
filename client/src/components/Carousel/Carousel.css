@@ -5,7 +5,7 @@
   margin: auto;
 }
 .slick-dots li.slick-active button:before {
-  color:#a85d5d !important;
+  color:#efc0b4 !important;
  }
  .slick-dots:hover button:before {
   color:#222022 !important;
