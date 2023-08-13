@@ -1,12 +1,9 @@
-import HeaderComponent from "../../components/HeaderComponent";
 import SectionComponent from "../../components/layout/SectionComponent";
 import LinkComponent from "../../components/LinkComponent";
 
 const Votos = () => {
   return (
     <main>
-      <HeaderComponent />
-
       <SectionComponent sectionBg="bg-votosBlack" haveHeader={true}>
         <h1 className="text-7xl text-white text-center">
           Conheça a <br className="hidden min-[370px]:block" /> Votos

@@ -3,12 +3,15 @@ import App from "../App";
 import Votos from "../views/Votos/Votos";
 import Contato from "../views/Contato/Contato";
 import Casamentos from "../views/Casamentos/Casamentos";
+import HeaderComponent from "../components/HeaderComponent";
+import Footer from '../components/Footer/Footer'
 
 
 const Rotas = () => {
 
     return (
         <Router>
+            <HeaderComponent/>
             <Routes>
                 <Route exact path="/" element={<App />} />
                 <Route exact path="/votos" element={<Votos />} />
@@ -16,6 +19,7 @@ const Rotas = () => {
                 <Route exact path="/casamentos" element={<Casamentos />} />
                 <Route path="*" element={<p>Rota não encontrada</p>} />
             </Routes>
+            <Footer/>
         </Router>
 
     );

@@ -33,9 +33,9 @@ export const EmailJS = (props) => {
                 <input required className='outline-none placeholder-white text-white w-full bg-transparent border-b-2 border-white' placeholder=' E-mail' type="email" name="user_email" />
                 <InputMask required className='outline-none placeholder-white text-white w-full bg-transparent border-b-2 border-white' placeholder=' Telefone' type="text" name="user_phone" mask="(99) 99999-9999" onChange={props.onChange} value={props.value} />
                 <div className='outline-none text-white w-full bg-transparent border-b-2 border-white' >
-                    <input className=' appearance-none rounded-[0.5rem]	border-2 border-white w-3 h-3 focus:bg-votosBlue checked:bg-votosBlue hover:cursor-pointer	' type='checkbox' value={"Casamento"} name='user_wedding' />
+                    <input className=' appearance-none rounded-[0.5rem]	border-2 border-white w-3 h-3 checked:bg-votosBlue hover:cursor-pointer	' type='checkbox' value={"Casamento"} name='user_wedding' />
                     <label className='ml-2' >Aniversário</label>
-                    <input className='ml-6 appearance-none rounded-[0.5rem]	border-2 border-white w-3 h-3 focus:bg-votosBlue checked:bg-votosBlue hover:cursor-pointer	' type='checkbox' value={"Aniversário"} name='user_birthday' />
+                    <input className='ml-6 appearance-none rounded-[0.5rem]	border-2 border-white w-3 h-3 checked:bg-votosBlue hover:cursor-pointer	' type='checkbox' value={"Aniversário"} name='user_birthday' />
                     <label className='ml-2'>Casamento</label>
                 </div>
                 <label htmlFor="FormTextArea" className='text-white'  >Complemento
