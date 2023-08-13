@@ -1,6 +1,15 @@
 .slick-slide > div {
   display: grid;
-  place-items: center;
+  justify-items: center;
   width: 70%;
   margin: auto;
 }
+.slick-dots li.slick-active button:before {
+  color:#a85d5d !important;
+ }
+ .slick-dots:hover button:before {
+  color:#222022 !important;
+ }
+ .slick-dots  button:before{
+  margin-top: 20px;
+ }

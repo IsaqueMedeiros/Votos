@@ -10,15 +10,14 @@ export default class Carousel extends Component {
             dots: true,
             infinite: true,
             speed: 500,
-            slidesToShow: 4,
-            slidesToScroll: 4,
             initialSlide: 0,
             responsive: [
                 {
                     breakpoint: 3000,
                     settings: {
-                        slidesToShow: 3,
-                        slidesToScroll: 3,
+                        arrows: false,
+                        slidesToShow: 2,
+                        slidesToScroll: 2,
                         infinite: true,
                         dots: true
                     }
@@ -45,34 +44,32 @@ export default class Carousel extends Component {
             ]
         };
         return (
-            <div className="overflow-hidden" >
-                <Slider {...settings} >
-                    <div className="border-2 border-votosRed h-96  rounded-[1rem]" >
+                    <Slider {...settings} >
+                        <div className="border-2 border-votosRed h-96  rounded-[1rem]" >
 
-                    </div>
-                    <div className="border-2 border-votosRed h-96  rounded-[1rem]">
+                        </div>
+                        <div className="border-2 border-votosRed h-96  rounded-[1rem]">
 
-                    </div>
-                    <div className="border-2 border-votosRed h-96  rounded-[1rem]">
+                        </div>
+                        <div className="border-2 border-votosRed h-96  rounded-[1rem]">
 
-                    </div>
-                    <div className="border-2 border-votosRed h-96  rounded-[1rem]">
+                        </div>
+                        <div className="border-2 border-votosRed h-96  rounded-[1rem]">
 
-                    </div>
-                    <div className="border-2 border-votosRed h-96  rounded-[1rem]">
+                        </div>
+                        <div className="border-2 border-votosRed h-96  rounded-[1rem]">
 
-                    </div>
-                    <div className="border-2 border-votosRed h-96  rounded-[1rem]">
+                        </div>
+                        <div className="border-2 border-votosRed h-96  rounded-[1rem]">
 
-                    </div>
-                    <div className="border-2 border-votosRed h-96  rounded-[1rem]">
+                        </div>
+                        <div className="border-2 border-votosRed h-96  rounded-[1rem]">
 
-                    </div>
-                    <div className="border-2 border-votosRed h-96  rounded-[1rem]">
+                        </div>
+                        <div className="border-2 border-votosRed h-96  rounded-[1rem]">
 
-                    </div>
-                </Slider>
-            </div>
+                        </div>
+                    </Slider>
         );
     }
 }

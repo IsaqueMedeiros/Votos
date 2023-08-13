@@ -7,7 +7,7 @@ const TemplateTwo = () => {
         <div className="w-full flex flex-col gap-8 py-8">
           <div className="w-full flex flex-col gap-8 md:flex-row md:items-center md:justify-between">
             <div className="w-full flex flex-col gap-8">
-              <h2 className="text-5xl text-votosRed">Realizando sonhos</h2>
+              <h2 className="text-5xl text-votosRed">Pacotes de casamentos</h2>
 
               <p className="text-lg text-votosBlack max-w-2xl">
                 Sempre antenadas com as tendências do mercado, trabalhamos com

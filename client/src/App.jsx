@@ -1,11 +1,8 @@
-import HeaderComponent from "./components/HeaderComponent";
 import SectionComponent from "./components/layout/SectionComponent";
 import LinkComponent from "./components/LinkComponent";
 function App() {
   return (
     <main>
-      <HeaderComponent />
-
       <SectionComponent sectionBg="bg-votosRed" haveHeader={true}>
         <div
           className="
