@@ -1,9 +1,14 @@
 import React from 'react'
 
-const TemplateThree = () => {
+const CasamentosTemplate1 = () => {
     return (
+<<<<<<< HEAD:client/src/views/Casamentos/Template1.jsx
         <main className='h-screen bg-votosRed flex flex-col lg:flex-row justify-around items-center text-white'>
             <div className='rounded-full w-[200px] lg:w-[350px] aspect-square border-2 border-votosPink' >
+=======
+        <main className='h-screen bg-votosRed flex flex-col md:flex-row justify-around items-center text-white'>
+            <div className='rounded-full h-[20rem] w-[20rem] lg:h-[25rem] lg:w-[25rem] xl:h-[30rem] xl:w-[30rem] border-2 border-votosPink' >
+>>>>>>> ffc2f5e (Votos Info Services created):client/src/views/Casamentos/CasamentosTemplate1.jsx
             </div>
             <div className='' >
                 <h1 className='text-5xl lg:text-7xl lg:leading-[5rem] text-votosPink' >
@@ -25,4 +30,4 @@ const TemplateThree = () => {
     )
 }
 
-export default TemplateThree
+export default CasamentosTemplate1

@@ -1,15 +1,17 @@
 import React from 'react'
-import Template1 from './Template1'
-import Template2 from './Template2'
-import Template3 from './Template3'
+import CasamentosTemplate1 from './CasamentosTemplate1'
+import CasamentosTemplate2 from './CasamentosTemplate2'
+import CasamentosTemplate3 from './CasamentosTemplate3'
+import CasamentosTemplate4 from './CasamentosTemplate4'
 
 
 const Casamentos = () => {
     return (
         <>
-        <Template1/>
-        <Template2/>
-        <Template3/>
+        <CasamentosTemplate1/>
+        <CasamentosTemplate2/>
+        <CasamentosTemplate3/>
+        <CasamentosTemplate4/>
         </>
     )
 }

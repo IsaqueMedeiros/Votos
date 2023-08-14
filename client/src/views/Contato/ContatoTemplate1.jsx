@@ -2,7 +2,7 @@ import React from 'react'
 
 const ContatoTemplate1 = () => {
     return (
-        <main className='h-screen bg-votosRed flex flex-col flex-col-reverse lg:flex-row justify-around items-center text-white'>
+        <main className='h-screen bg-votosRed flex flex-col flex-col-reverse md:flex-row justify-around items-center text-white'>
             <div className='' >
                 <h1 className='text-5xl lg:text-7xl lg:leading-[5rem] text-votosPink' >
                     VOTOS<br /> CERIMONIAL
