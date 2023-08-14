@@ -5,7 +5,7 @@ const Votos = () => {
   return (
     <main>
       <SectionComponent sectionBg="bg-votosBlack" haveHeader={true}>
-        <h1 className="text-7xl text-white text-center">
+        <h1 className="text-5xl md:text-7xl text-white text-center">
           Conheça a <br className="hidden min-[370px]:block" /> Votos
         </h1>
 
@@ -36,33 +36,37 @@ const Votos = () => {
             </div>
           </div>
 
-          <div className="w-full flex flex-col gap-8 md:mt-8 md:flex-row md:items-center md:justify-evenly">
-            <div className="rounded-3xl w-full max-w-[200px] lg:max-w-[300px] aspect-square bg-black self-center"></div>
+          <SectionComponent>
+            <div className="w-full flex flex-col gap-8 md:mt-8 md:flex-row md:items-center md:justify-evenly">
+              <div className="rounded-3xl w-full max-w-[200px] lg:max-w-[400px] aspect-square bg-black self-center"></div>
 
-            <div className="flex flex-col items-center gap-4 w-full max-w-2xl">
-              <h3 className="text-4xl text-votosRed">Casamentos</h3>
+              <div className="flex flex-col items-center gap-4 w-full max-w-2xl">
+                <h3 className="text-4xl text-votosRed">Casamentos</h3>
 
-              <p className="text-lg text-votosBlack text-center">
-                Get to chat with hundreds of wedding vendors.
-              </p>
+                <p className="text-lg text-votosBlack text-center">
+                  Get to chat with hundreds of wedding vendors.
+                </p>
 
-              <LinkComponent title="Ver mais" href="/casamentos" />
+                <LinkComponent title="Ver mais" href="/casamentos" />
+              </div>
             </div>
-          </div>
+          </SectionComponent>
 
-          <div className="w-full flex flex-col gap-8 md:mt-8 md:flex-row md:items-center md:justify-evenly">
-            <div className="rounded-3xl w-full max-w-[200px] lg:max-w-[300px] aspect-square bg-black self-center md:order-2"></div>
+          <SectionComponent>
+            <div className="w-full flex flex-col gap-8 md:mt-8 md:flex-row md:items-center md:justify-evenly">
+              <div className="rounded-3xl w-full max-w-[200px] lg:max-w-[400px] aspect-square bg-black self-center md:order-2"></div>
 
-            <div className="flex flex-col items-center gap-4 w-full max-w-2xl">
-              <h3 className="text-4xl text-votosRed">Aniversários</h3>
+              <div className="flex flex-col items-center gap-4 w-full max-w-2xl">
+                <h3 className="text-4xl text-votosRed">Aniversários</h3>
 
-              <p className="text-lg text-votosBlack text-center">
-                Know whats in and out from industry insiders.
-              </p>
+                <p className="text-lg text-votosBlack text-center">
+                  Know whats in and out from industry insiders.
+                </p>
 
-              <LinkComponent title="Ver mais" href="/casamentos" />
+                <LinkComponent title="Ver mais" href="/casamentos" />
+              </div>
             </div>
-          </div>
+          </SectionComponent>
 
           <div className="w-full flex flex-col mt-14 lg:flex-row lg:justify-between gap-8">
             <div className="w-full flex flex-col gap-4 md:w-fit">

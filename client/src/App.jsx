@@ -1,20 +1,23 @@
 import SectionComponent from "./components/layout/SectionComponent";
 import LinkComponent from "./components/LinkComponent";
+
 function App() {
   return (
     <main>
       <SectionComponent sectionBg="bg-votosRed" haveHeader={true}>
         <div
           className="
-          border-4 border-white rounded-[3rem] md:rounded-[5rem] w-full px-8 py-12 md:py-44
+          border-4 border-white rounded-[3rem] md:rounded-[5rem] w-full px-8 py-12 2xl:py-28
           flex flex-col gap-8 items-center md:flex-row
           md:justify-evenly
         "
         >
           <div className="text-white text-center flex flex-col gap-4 md:text-start">
-            <h1 className="text-6xl xl:text-9xl">Votos <br /> Cerimonial</h1>
+            <h1 className="text-5xl sm:text-6xl xl:text-9xl">
+              Votos <br /> Cerimonial
+            </h1>
 
-            <span className="text-lg mt-4">
+            <span className="text-lg">
               Nós transformamos sonhos em <br className="hidden md:block" />
               realidade
             </span>
@@ -22,9 +25,9 @@ function App() {
 
           <img
             src="public/media/VotosLogoWhite.webp"
-            alt="teste"
-            width={100}
-            height={100}
+            alt="Votos Logo"
+            width={150}
+            height={150}
           />
         </div>
       </SectionComponent>
@@ -59,7 +62,7 @@ function App() {
                 perfeição.
               </p>
 
-              <LinkComponent title="Casamentos" href="/casamentos"/>
+              <LinkComponent title="Casamentos" href="/casamentos" />
             </div>
           </div>
         </div>

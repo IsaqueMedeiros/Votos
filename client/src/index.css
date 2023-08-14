@@ -2,9 +2,47 @@
 @tailwind components;
 @tailwind utilities;
 
-html{
+@font-face {
+  font-family: 'boowieOtf';
+  src: url('../public/fonts/BOOWIE.otf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'boowieItalicOtf';
+  src: url('../public/fonts/BOOWIE\ italic.otf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'openSansTtf';
+  src: url('../public/fonts/OpenSans-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'openSansBoldTtf';
+  src: url('../public/fonts/OpenSans-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+html {
   min-width: 320px;
   min-height: 535px;
+  font-family: 'openSansTtf', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'boowieOtf', 'openSansTtf', sans-serif;
 }
 
 ::-webkit-scrollbar {

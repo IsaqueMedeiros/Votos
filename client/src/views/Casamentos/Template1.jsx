@@ -3,7 +3,7 @@ import React from 'react'
 const TemplateThree = () => {
     return (
         <main className='h-screen bg-votosRed flex flex-col lg:flex-row justify-around items-center text-white'>
-            <div className='rounded-full h-[20rem] w-[20rem] lg:h-[25rem] lg:w-[25rem] xl:h-[30rem] xl:w-[30rem] border-2 border-votosPink' >
+            <div className='rounded-full w-[200px] lg:w-[350px] aspect-square border-2 border-votosPink' >
             </div>
             <div className='' >
                 <h1 className='text-5xl lg:text-7xl lg:leading-[5rem] text-votosPink' >

@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Routes, Route, } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import App from "../App";
 import Votos from "../views/Votos/Votos";
 import Contato from "../views/Contato/Contato";
@@ -6,9 +6,7 @@ import Casamentos from "../views/Casamentos/Casamentos";
 import HeaderComponent from "../components/HeaderComponent";
 import Footer from '../components/Footer/Footer'
 
-
 const Rotas = () => {
-
     return (
         <Router>
             <HeaderComponent/>
