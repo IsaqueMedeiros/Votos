@@ -87,7 +87,7 @@ const Votos = () => {
                     BAKS Bridal Show
                   </h4>
 
-                  <span className="text-lg text-votosBlack text-center">
+                  <span className="text-votosBlack text-center">
                     An Annual National Industry Event January 10, 2025, 9:00
                     a.m. to 5:00 p.m. Conference Hall A, National Event Hall
                   </span>

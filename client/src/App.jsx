@@ -47,14 +47,30 @@ function App() {
               </p>
             </div>
 
-            <div className="rounded-full w-full max-w-[250px] 2xl:max-w-[350px] aspect-square bg-black self-center"></div>
+            <div>
+              <img
+                src="public/media/home1.webp"
+                alt="Franciane Moura"
+                width={250}
+                height={250}
+                className="rounded-full w-full max-w-[250px] 2xl:max-w-[350px] aspect-square self-center overflow-hidden object-cover"
+              />
+            </div>
           </div>
 
           <div className="w-full flex flex-col gap-8 md:flex-row md:items-center md:justify-between">
-            <div className="rounded-full w-full max-w-[250px] 2xl:max-w-[350px] aspect-square bg-black self-center"></div>
+            <div>
+              <img
+                src="public/media/home1.webp"
+                alt="Franciane Moura"
+                width={250}
+                height={250}
+                className="rounded-full w-full max-w-[250px] 2xl:max-w-[350px] aspect-square self-center overflow-hidden object-cover"
+              />
+            </div>
 
             <div className="flex flex-col gap-8 w-full max-w-2xl">
-              <p className="text-lg text-votosBlack">
+              <p className="text-lg text-votosBlack text-end">
                 Sempre antenadas com as tendências do mercado, trabalhamos com
                 oque amamos e nossa maior realização é ver a alegria e o brilho
                 no olhar de nossos clientes e de seus convidados, pois
@@ -62,7 +78,31 @@ function App() {
                 perfeição.
               </p>
 
-              <LinkComponent title="Casamentos" href="/casamentos" />
+              <div className="w-full flex justify-end">
+                <LinkComponent title="Casamentos" href="/casamentos" />
+              </div>
+            </div>
+          </div>
+
+          <div className="w-full flex flex-col gap-8 md:flex-row md:items-center md:justify-between">
+            <div className="w-full flex flex-col gap-8 max-w-2xl">
+              <h2 className="text-5xl text-votosRed">Nossa equipe</h2>
+
+              <p className="text-lg text-votosBlack">
+                Conheça um pouco dos nossos trabalhos realizados
+              </p>
+
+              <LinkComponent title="Eventos" href="/casamentos" />
+            </div>
+
+            <div>
+              <img
+                src="public/media/equipe.webp"
+                alt="Equipe Votos"
+                width={250}
+                height={250}
+                className="rounded-full w-full max-w-[250px] 2xl:max-w-[350px] aspect-square self-center overflow-hidden object-cover"
+              />
             </div>
           </div>
         </div>
