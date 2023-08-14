@@ -6,15 +6,15 @@ function App() {
       <SectionComponent sectionBg="bg-votosRed" haveHeader={true}>
         <div
           className="
-          border-4 border-white rounded-[3rem] md:rounded-[5rem] w-full px-8 py-12 md:py-16
+          border-4 border-white rounded-[3rem] md:rounded-[5rem] w-full px-8 py-12 md:py-44
           flex flex-col gap-8 items-center md:flex-row
           md:justify-evenly
         "
         >
           <div className="text-white text-center flex flex-col gap-4 md:text-start">
-            <h1 className="text-5xl">Votos Cerimonial</h1>
+            <h1 className="text-6xl xl:text-9xl">Votos <br /> Cerimonial</h1>
 
-            <span className="text-lg">
+            <span className="text-lg mt-4">
               Nós transformamos sonhos em <br className="hidden md:block" />
               realidade
             </span>
