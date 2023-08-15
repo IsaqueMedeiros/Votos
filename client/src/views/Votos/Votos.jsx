@@ -57,7 +57,7 @@ const Votos = () => {
 
           <SectionComponent>
             <div className="w-full flex flex-col gap-8 md:mt-8 md:flex-row md:items-center md:justify-evenly">
-              <div className="rounded-3xl w-full max-w-[200px] lg:max-w-[400px] aspect-square self-center">
+              <div className="rounded-3xl w-full max-w-[200px] lg:max-w-[400px] aspect-square self-center overflow-hidden">
                 <img
                   src="public/media/image1.webp"
                   alt="Noivos"
@@ -81,7 +81,7 @@ const Votos = () => {
 
           <SectionComponent>
             <div className="w-full flex flex-col gap-8 md:mt-8 md:flex-row md:items-center md:justify-evenly">
-              <div className="rounded-3xl w-full max-w-[200px] lg:max-w-[400px] aspect-square bg-black self-center md:order-2"></div>
+              <div className="rounded-3xl w-full max-w-[200px] lg:max-w-[400px] aspect-square bg-black self-center overflow-hidden md:order-2"></div>
 
               <div className="flex flex-col items-center gap-4 w-full max-w-2xl">
                 <h3 className="text-4xl text-votosRed">Aniversários</h3>
