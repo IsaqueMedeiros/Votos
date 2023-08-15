@@ -4,7 +4,10 @@ import LinkComponent from "../../components/LinkComponent";
 const Votos = () => {
   return (
     <main>
-      <SectionComponent sectionBg="bg-votosBlack" haveHeader={true}>
+      <SectionComponent
+        sectionBg="bg-votosBlack bg-[url('public/media/image3.webp')] bg-center bg-cover"
+        haveHeader={true}
+      >
         <h1 className="text-5xl md:text-7xl text-white text-center">
           Conheça a <br className="hidden min-[370px]:block" /> Votos
         </h1>
@@ -16,7 +19,7 @@ const Votos = () => {
 
       <SectionComponent sectionBg="bg-white" haveHeader={false}>
         <div className="w-full flex flex-col gap-8 py-8">
-          <div className="w-full flex flex-col gap-8 sm:flex-row sm:items-center sm:justify-between">
+          <div className="w-full flex flex-col gap-8 md:flex-row md:items-center md:justify-between">
             <div className="w-full flex flex-col gap-8 max-w-2xl">
               <h2 className="text-5xl text-votosRed">
                 Nossa <br /> Atuação
@@ -30,15 +33,39 @@ const Votos = () => {
             </div>
 
             <div className="flex flex-col items-center justify-center gap-4 self-center w-full max-w-[288px] lg:max-w-[400px]">
-              <div className="h-[180px] aspect-[12/16] bg-black lg:h-[250px] self-end"></div>
+              <div className="h-[180px] aspect-[12/16] bg-black lg:h-[250px] self-end">
+                <img
+                  src="public/media/image2.webp"
+                  alt="Cartas"
+                  width={250}
+                  height={250}
+                  className="object-cover w-full h-full"
+                />
+              </div>
 
-              <div className="h-[180px] aspect-[12/16] bg-black lg:h-[250px] self-start mt-[-60px]"></div>
+              <div className="h-[180px] aspect-[12/16] lg:h-[250px] self-start mt-[-60px]">
+                <img
+                  src="public/media/image4.webp"
+                  alt="Flores"
+                  width={250}
+                  height={250}
+                  className="object-cover w-full h-full"
+                />
+              </div>
             </div>
           </div>
 
           <SectionComponent>
             <div className="w-full flex flex-col gap-8 md:mt-8 md:flex-row md:items-center md:justify-evenly">
-              <div className="rounded-3xl w-full max-w-[200px] lg:max-w-[400px] aspect-square bg-black self-center"></div>
+              <div className="rounded-3xl w-full max-w-[200px] lg:max-w-[400px] aspect-square self-center">
+                <img
+                  src="public/media/image1.webp"
+                  alt="Noivos"
+                  width={250}
+                  height={250}
+                  className="object-cover w-full h-full"
+                />
+              </div>
 
               <div className="flex flex-col items-center gap-4 w-full max-w-2xl">
                 <h3 className="text-4xl text-votosRed">Casamentos</h3>

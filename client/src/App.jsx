@@ -56,8 +56,8 @@ function App() {
           <div className="w-full flex flex-col gap-8 md:flex-row md:items-center md:justify-between">
             <div>
               <img
-                src="public/media/home1.webp"
-                alt="Franciane Moura"
+                src="public/media/home2.webp"
+                alt="Casamento"
                 width={250}
                 height={250}
                 className="rounded-full w-full max-w-[250px] 2xl:max-w-[350px] aspect-square self-center overflow-hidden object-cover"
