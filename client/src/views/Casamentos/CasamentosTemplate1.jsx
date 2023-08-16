@@ -3,7 +3,7 @@ const CasamentosTemplate1 = () => {
         <main className='min-h-screen bg-votosRed flex flex-col gap-8 md:flex-row md:justify-evenly items-center text-white py-16'>
             <div className='rounded-full w-[250px] md:w-[350px] aspect-square border-2 border-votosPink' >
             </div>
-            <div className='w-full flex flex-col items-center md:w-auto'>
+            <div className='w-full flex flex-col items-center md:items-start md:w-auto'>
                 <h1 className='text-5xl lg:text-7xl lg:leading-[5rem] text-votosPink' >
                     NOSSA<br /> EQUIPE
                 </h1>

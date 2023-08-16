@@ -4,9 +4,9 @@ const ContatoTemplate2 = () => {
   return (
     <main
       id="Contato"
-      className="min-h-screen bg-votosPink flex flex-col justify-center items-center overflow-hidden px-4 py-12"
+      className="h-screen bg-votosPink flex flex-col justify-center items-center overflow-hidden "
     >
-      <div className="w-full bg-votosRed flex flex-col lg:flex-row items-center justify-around rounded-[2.5rem] lg:rounded-[5rem] p-8 overflow-hidden">
+      <div className="w-10/12 h-[90%]	 md:h-5/6 bg-votosRed flex flex-col lg:flex-row items-center justify-around rounded-[2.5rem] lg:rounded-[5rem] overflow-hidden">
         <div className=" flex flex-col gap-2 mr-[5rem]">
           <h1 className="text-left text-votosPink text-4xl lg:text-7xl">
             Entre em <br />
