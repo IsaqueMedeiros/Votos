@@ -18,7 +18,7 @@ function App() {
             </h1>
 
             <span className="text-lg mt-4">
-              Brilho no <br className="hidden md:block" />
+              Brilho no
               olhar de nossos clientes
             </span>
           </div>
