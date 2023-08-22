@@ -1,5 +1,6 @@
 import SectionComponent from "./components/layout/SectionComponent";
 import LinkComponent from "./components/LinkComponent";
+import { LazyLoadImage } from "react-lazy-load-image-component";
 
 function App() {
   return (
@@ -23,8 +24,9 @@ function App() {
             </span>
           </div>
 
-          <img
+          <LazyLoadImage
             src="public/media/VotosLogoWhite.webp"
+            loading="lazy"
             alt="Votos Logo"
             width={150}
             height={150}
@@ -43,8 +45,9 @@ function App() {
             </div>
 
             <div>
-              <img
+              <LazyLoadImage
                 src="public/media/home1.webp"
+                loading="lazy"
                 alt="Franciane Moura"
                 width={250}
                 height={250}
@@ -55,8 +58,9 @@ function App() {
 
           <div className="w-full flex flex-col gap-8 md:flex-row md:items-center md:justify-between">
             <div>
-              <img
+              <LazyLoadImage
                 src="public/media/home2.webp"
+                loading="lazy"
                 alt="Casamento"
                 width={250}
                 height={250}

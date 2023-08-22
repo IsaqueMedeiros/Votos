@@ -1,5 +1,8 @@
 import SectionComponent from "../../components/layout/SectionComponent";
-import LinkComponent from "../../components/LinkComponent";
+import VotosTemplate1 from "./VotosTemplate1";
+import VotosTemplate2 from "./VotosTemplate2";
+import { LazyLoadImage } from "react-lazy-load-image-component";
+
 
 const Votos = () => {
   return (
@@ -34,8 +37,9 @@ const Votos = () => {
 
             <div className="flex flex-col items-center justify-center gap-4 self-center w-full max-w-[288px] lg:max-w-[400px]">
               <div className="h-[180px] aspect-[12/16] bg-black lg:h-[250px] self-end">
-                <img
-                  src="public/media/image2.webp"
+                <LazyLoadImage
+                  src="public/media/florMesa.webp"
+                  loading="lazy"
                   alt="Cartas"
                   width={250}
                   height={250}
@@ -44,8 +48,9 @@ const Votos = () => {
               </div>
 
               <div className="h-[180px] aspect-[12/16] lg:h-[250px] self-start mt-[-60px]">
-                <img
+              <LazyLoadImage
                   src="public/media/image4.webp"
+                  loading="lazy"
                   alt="Flores"
                   width={250}
                   height={250}
@@ -55,47 +60,7 @@ const Votos = () => {
             </div>
           </div>
 
-          <SectionComponent>
-            <div className="w-full flex flex-col gap-8 md:mt-8 md:flex-row md:items-center md:justify-evenly">
-              <div className="rounded-3xl w-full max-w-[200px] lg:max-w-[400px] aspect-square self-center overflow-hidden">
-                <img
-                  src="public/media/image1.webp"
-                  alt="Noivos"
-                  width={250}
-                  height={250}
-                  className="object-cover w-full h-full"
-                />
-              </div>
-
-              <div className="flex flex-col items-center gap-4 w-full max-w-2xl">
-                <h3 className="text-4xl text-votosRed">Casamentos</h3>
-
-                <p className="text-lg text-votosBlack text-center">
-                  Get to chat with hundreds of wedding vendors.
-                </p>
-
-                <LinkComponent title="Ver mais" href="/casamentos" />
-              </div>
-            </div>
-          </SectionComponent>
-
-          <SectionComponent>
-            <div className="w-full flex flex-col gap-8 md:mt-8 md:flex-row md:items-center md:justify-evenly">
-              <div className="rounded-3xl w-full max-w-[200px] lg:max-w-[400px] aspect-square bg-black self-center overflow-hidden md:order-2"></div>
-
-              <div className="flex flex-col items-center gap-4 w-full max-w-2xl">
-                <h3 className="text-4xl text-votosRed">Aniversários</h3>
-
-                <p className="text-lg text-votosBlack text-center">
-                  Know whats in and out from industry insiders.
-                </p>
-
-                <LinkComponent title="Ver mais" href="/casamentos" />
-              </div>
-            </div>
-          </SectionComponent>
-
-          <div className="w-full flex flex-col mt-14 lg:flex-row lg:justify-between gap-8">
+          {/* <div className="w-full flex flex-col mt-14 lg:flex-row lg:justify-between gap-8">
             <div className="w-full flex flex-col gap-4 md:w-fit">
               <h3 className="text-4xl text-votosRed">
                 Próximos <br className="sm:hidden" /> eventos
@@ -105,7 +70,7 @@ const Votos = () => {
             </div>
 
             <div className="w-full max-w-md flex flex-col gap-4 self-center">
-              {/* map aqui para cada item */}
+              map aqui para cada item
               <div className="w-full flex flex-col md:flex-row gap-4 items-center">
                 <div className="w-full max-w-[150px] aspect-square bg-black"></div>
 
@@ -120,11 +85,13 @@ const Votos = () => {
                   </span>
                 </div>
               </div>
-              {/* map aqui para cada item */}
+              map aqui para cada item
             </div>
-          </div>
+          </div> */}
         </div>
       </SectionComponent>
+      <VotosTemplate1/>
+      <VotosTemplate2/>
     </main>
   );
 };

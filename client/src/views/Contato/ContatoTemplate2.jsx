@@ -1,4 +1,6 @@
+import React from "react";
 import { EmailJS } from "../../services/EmailJS";
+
 
 const ContatoTemplate2 = () => {
   return (
@@ -7,7 +9,7 @@ const ContatoTemplate2 = () => {
       className="h-screen bg-votosPink flex flex-col justify-center items-center overflow-hidden "
     >
       <div className="w-10/12 h-[90%]	 md:h-5/6 bg-votosRed flex flex-col lg:flex-row items-center justify-around rounded-[2.5rem] lg:rounded-[5rem] overflow-hidden">
-        <div className=" flex flex-col gap-2 mr-[5rem]">
+        <div className=" flex flex-col ml-[-5rem] md:ml-0 gap-2">
           <h1 className="text-left text-votosPink text-4xl lg:text-7xl">
             Entre em <br />
             contato

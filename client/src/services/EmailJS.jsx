@@ -66,14 +66,14 @@ export const EmailJS = (props) => {
         />
         <div className="outline-none text-white w-full bg-transparent border-b-2 border-white flex items-center">
           <input
-            className=" appearance-none rounded-[0.5rem] border-2 border-white w-4 aspect-square checked:bg-votosBlue hover:cursor-pointer	"
+            className=" appearance-none rounded-[0.5rem] border-2 border-white w-4 aspect-square checked:bg-white hover:cursor-pointer	"
             type="checkbox"
             value={"Casamento"}
             name="user_wedding"
           />
           <label className="ml-2">Aniversário</label>
           <input
-            className="ml-6 appearance-none rounded-[0.5rem]	border-2 border-white w-4 aspect-square checked:bg-votosBlue hover:cursor-pointer	"
+            className="ml-6 appearance-none rounded-[0.5rem]	border-2 border-white w-4 aspect-square checked:bg-white hover:cursor-pointer	"
             type="checkbox"
             value={"Aniversário"}
             name="user_birthday"

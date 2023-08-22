@@ -6,6 +6,7 @@ import {
   Tab,
   TabPanel,
 } from "@material-tailwind/react";
+import { LazyLoadImage } from "react-lazy-load-image-component";
 
 export default function CasamentosTemplate3() {
     const [activeTab, setActiveTab] = React.useState("casamentos");
