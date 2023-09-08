@@ -14,7 +14,7 @@ const ContatoTemplate1 = () => {
           Entre em contato conosco<br/> e permita-nos criar
           momentos inesquecíveis juntos.
         </p>
-        <button className="mt-4 lg:mt-10 rounded-2xl shadow-md bg-votosRed text-white text-lg w-[160px] lg:w-[200px] xl:w-[240px]  py-0.5 flex items-center justify-center group hover:brightness-90 duration-500 border-2 border-[#faf9f6]">
+        <a href="#contato" className="mt-4 lg:mt-10 rounded-2xl shadow-md bg-votosRed text-white text-lg w-[160px] lg:w-[200px] xl:w-[240px]  py-0.5 flex items-center justify-center group hover:brightness-90 duration-500 border-2 border-[#faf9f6]">
           Contato
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -30,7 +30,7 @@ const ContatoTemplate1 = () => {
               d="M19.5 8.25l-7.5 7.5-7.5-7.5"
             />
           </svg>
-        </button>
+        </a>
       </div>
       <div className="rounded-3xl w-full max-w-[270px] lg:max-w-[350px] aspect-square self-center overflow-hidden border-2 border-white">
         <LazyLoadImage

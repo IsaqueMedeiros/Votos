@@ -10,7 +10,7 @@ const ContatoTemplate2 = () => {
     >
       <div className="w-10/12 h-[90%]	 md:h-5/6 bg-votosRed flex flex-col lg:flex-row items-center justify-around rounded-[2.5rem] lg:rounded-[5rem] overflow-hidden">
         <div className=" flex flex-col ml-[-5rem] md:ml-0 gap-2">
-          <h1 className="text-left text-votosPink text-4xl lg:text-7xl">
+          <h1 id="contato" className="text-left text-votosPink text-4xl lg:text-7xl">
             Entre em <br />
             contato
           </h1>
