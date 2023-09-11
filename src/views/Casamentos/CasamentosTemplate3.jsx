@@ -20,14 +20,12 @@ export default function CasamentosTemplate3() {
             label: "Serviços",
             value: "serviços",
             desc: `Serviços oferecidos:
-            Cerimonial,
-            Músicas,
-            Coordenador de casamento, Personal Trainner.`,
+            Assessoria básica, Assessoria intermediária e completa.`,
     },
     {
       label: "Cerimônia",
       value: "cerimonia",
-      desc: `Realizamos cerimônias: Religiosas, Civil, Exterior, Ar Livre, Simbólica, Temática, Ecológica.`,
+      desc: `Realizamos cerimônias: Religiosas, ar livre,simbólica, Temática e Ecológica..`,
     },
   ];
 

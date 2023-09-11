@@ -11,6 +11,7 @@ export default class Carousel extends Component {
         var settings = {
             lazyLoad: true,
             dots: true,
+            arrows: true,
             infinite: true,
             speed: 500,
             initialSlide: 0,
@@ -18,7 +19,6 @@ export default class Carousel extends Component {
                 {
                     breakpoint: 3000,
                     settings: {
-                        arrows: false,
                         slidesToShow: 2,
                         slidesToScroll: 1,
                         infinite: true,

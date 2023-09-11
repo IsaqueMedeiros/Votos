@@ -13,3 +13,20 @@
  .slick-dots  button:before{
   margin-top: 10px;
  }
+/* Estilo para a seta esquerda */
+.slick-prev {
+  background-color: #333; /* Cor de fundo */
+  color: #fff; /* Cor do ícone da seta */
+  font-size: 24px; /* Tamanho da fonte do ícone */
+  margin-left: 3rem;
+  z-index: 2;
+}
+
+/* Estilo para a seta direita */
+.slick-next {
+  background-color: #333;
+  color: #fff;
+  font-size: 24px;
+  margin-right: 3rem;
+  z-index: 2;
+}
