@@ -9,7 +9,7 @@ const VotosTemplate2 = () => {
         <div className=" h-[70%] w-10/12 flex flex-col justify-center items-center gap-8 md:mt-8 md:flex-row-reverse md:items-center md:justify-evenly bg-white rounded-[5rem]">
            <div className="rounded-3xl w-full max-w-[200px] lg:max-w-[400px] aspect-square self-center overflow-hidden">
                <LazyLoadImage
-                   src="public/media/cake.webp"
+                   src="/media/cake.webp"
                    loading="Cake"
                    alt="Image1"
                    width={250}

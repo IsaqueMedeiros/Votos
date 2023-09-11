@@ -4,28 +4,28 @@
 
 @font-face {
   font-family: 'boowieOtf';
-  src: url('../public/fonts/BOOWIE.otf') format('truetype');
+  src: url('../fonts/BOOWIE.otf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'boowieItalicOtf';
-  src: url('../public/fonts/BOOWIE\ italic.otf') format('truetype');
+  src: url('../fonts/BOOWIE\ italic.otf') format('truetype');
   font-weight: bold;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'openSansTtf';
-  src: url('../public/fonts/OpenSans-Regular.ttf') format('truetype');
+  src: url('../fonts/OpenSans-Regular.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'openSansBoldTtf';
-  src: url('../public/fonts/OpenSans-Bold.ttf') format('truetype');
+  src: url('../fonts/OpenSans-Bold.ttf') format('truetype');
   font-weight: bold;
   font-style: normal;
 }

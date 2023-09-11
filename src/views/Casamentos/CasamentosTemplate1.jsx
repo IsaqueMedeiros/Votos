@@ -7,7 +7,7 @@ const CasamentosTemplate1 = () => {
         <main className='min-h-screen bg-votosRed flex flex-col gap-8 md:flex-row md:justify-evenly items-center text-white py-16'>
             <div className='rounded-3xl w-[250px] md:w-[350px] aspect-square border-2 border-votosPink' >
             <LazyLoadImage
-                  src="public/media/equipe.webp"
+                  src="/media/equipe.webp"
                   loading="lazy"
                   alt="Equipe"
                   width={250}

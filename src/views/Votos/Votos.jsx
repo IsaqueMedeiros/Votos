@@ -8,7 +8,7 @@ const Votos = () => {
   return (
     <main>
       <SectionComponent
-        sectionBg="bg-votosBlack bg-[url('public/media/image3.webp')] bg-center bg-cover"
+        sectionBg="bg-votosBlack bg-[url('/media/image3.webp')] bg-center bg-cover"
         haveHeader={true}
       >
         <h1 className="text-5xl md:text-7xl text-white text-center">
@@ -38,7 +38,7 @@ const Votos = () => {
             <div className="flex flex-col items-center justify-center gap-4 self-center w-full max-w-[288px] lg:max-w-[400px]">
               <div className="h-[180px] aspect-[12/16] bg-black lg:h-[250px] self-end">
                 <LazyLoadImage
-                  src="public/media/florMesa.webp"
+                  src="/media/florMesa.webp"
                   loading="lazy"
                   alt="Cartas"
                   width={250}
@@ -49,7 +49,7 @@ const Votos = () => {
 
               <div className="h-[180px] aspect-[12/16] lg:h-[250px] self-start mt-[-60px]">
               <LazyLoadImage
-                  src="public/media/image4.webp"
+                  src="/media/image4.webp"
                   loading="lazy"
                   alt="Flores"
                   width={250}

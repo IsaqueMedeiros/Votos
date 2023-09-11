@@ -25,7 +25,7 @@ function App() {
           </div>
 
           <LazyLoadImage
-            src="public/media/VotosLogoWhite.webp"
+            src="/media/VotosLogoWhite.webp"
             loading="lazy"
             alt="Votos Logo"
             width={150}
@@ -46,7 +46,7 @@ function App() {
 
             <div>
               <LazyLoadImage
-                src="public/media/home1.webp"
+                src="/media/home1.webp"
                 loading="lazy"
                 alt="Franciane Moura"
                 width={250}
@@ -59,7 +59,7 @@ function App() {
           <div className="w-full flex flex-col gap-8 md:flex-row md:items-center md:justify-between">
             <div>
               <LazyLoadImage
-                src="public/media/home2.webp"
+                src="/media/home2.webp"
                 loading="lazy"
                 alt="Casamento"
                 width={250}

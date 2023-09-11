@@ -34,7 +34,7 @@ const ContatoTemplate1 = () => {
       </div>
       <div className="rounded-3xl w-full max-w-[270px] lg:max-w-[350px] aspect-square self-center overflow-hidden border-2 border-white">
         <LazyLoadImage
-          src="public/media/image1.webp"
+          src="/media/image1.webp"
           loading="lazy"
           alt="Noivos"
           width={250}
