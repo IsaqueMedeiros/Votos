@@ -6,7 +6,6 @@ import {
   Tab,
   TabPanel,
 } from "@material-tailwind/react";
-import { LazyLoadImage } from "react-lazy-load-image-component";
 
 export default function CasamentosTemplate3() {
     const [activeTab, setActiveTab] = React.useState("casamentos");
@@ -14,7 +13,7 @@ export default function CasamentosTemplate3() {
         {
             label: "Casamentos",
             value: "casamentos",
-            desc: `Tamanhos de Casamento: Realizamos casamentos entre 0 e 500+ convidados.`,
+            desc: `A missão é transformar sonhos em realidade, respeitando o perfil do cliente e entregando um serviço de qualidade desde o planejamento à realização de um dia muito especial.`,
         },
         {
             label: "Serviços",

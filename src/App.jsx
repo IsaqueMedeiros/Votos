@@ -1,5 +1,7 @@
 import SectionComponent from "./components/layout/SectionComponent";
 import LinkComponent from "./components/LinkComponent";
+import CarouselReview from './components/Carousel/CarouselReview/CarouselReview'
+
 import { LazyLoadImage } from "react-lazy-load-image-component";
 
 function App() {
@@ -41,7 +43,7 @@ function App() {
               <h2 className="text-5xl text-votosRed">Quem somos?</h2>
 
               <p className="text-lg text-votosBlack">
-                São pessoas que se conhecem há muitos anos, que tem um vínculo de amizade e de carinho, criando uma relação positiva para o seu casamento. Nós queremos fazer um VOTO a você, de que faremos tudo com todo carinho e com todo amor.              </p>
+              O nome Votos significa ter compromisso, você fazer um voto alguém que você vai cumprir, um voto que fazemos conosco e com as nossas noivas. Cumprir aquilo que prometeu é ir além, fazer o seu melhor, dar o seu máximo. Essa é a proposta da Votos Cerimonial.             </p>
             </div>
 
             <div>
@@ -76,6 +78,25 @@ function App() {
 
               <LinkComponent title="Casamentos" href="/casamentos" />
             </div>
+          </div>
+        </div>
+      </SectionComponent>
+
+      <SectionComponent sectionBg="bg-white" haveHeader={false}>
+        <div className="w-full flex flex-col gap-8 py-8">
+          <div className="w-full flex flex-col gap-8 md:flex-row md:items-center md:justify-between">
+            <div className="w-full flex flex-col gap-8 max-w-2xl">
+              <h2 className="text-5xl text-votosRed">Reviews</h2>
+
+              <p className="text-lg text-votosBlack">
+              Confira alguns reviews da Votos, nossa equipe transmite tranquilidade e segurança para os noivos, permitindo ao casal protagonista desfrutar da cerimônia sem preocupação.
+              </p>
+              <p className="text-lg text-votosBlack">
+              Ainda bem que há empresas como a Votos Cerimonial, especializada em produzir casamentos. Com eles, o casal tem a chance de aproveitar o tão esperado dia sem estresse e nervosismo.</p>
+            </div>
+          </div>
+          <div id='casamentos' className='flex flex-row items-center justify-end' >
+          <CarouselReview/>
           </div>
         </div>
       </SectionComponent>
