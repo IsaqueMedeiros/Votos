@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 
-import "./Carousel.css"
+import "./CarouselReview.css"
 import Slider from "react-slick";
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
@@ -11,7 +11,6 @@ export default class CarouselReview extends Component {
     render() {
         var settings = {
             lazyLoad: true,
-            dots: true,
             arrows: true,
             infinite: true,
             speed: 500,
@@ -32,7 +31,6 @@ export default class CarouselReview extends Component {
                         slidesToShow: 2,
                         slidesToScroll: 2,
                         infinite: true,
-                        dots: true
                     }
                 },
                 {
@@ -42,81 +40,40 @@ export default class CarouselReview extends Component {
                         slidesToScroll: 1,
                         initialSlide: 1,
                         infinite: true,
-                        dots: true
                     }
                 },
             ]
         };
         return (
-            <Slider {...settings} className="w-8/12	" >
-                <div className=" h-96  rounded-[1rem]" >
+            <Slider {...settings} className="w-[110%] sm:w-8/12" >
+                <div className=" h-99  rounded-[1rem]" >
                     <LazyLoadImage
-                        src="media/carro.webp"
-                        alt="Carro"
-                        width={250}
-                        height={250}
+                        src="media/Reviews/Depoimento_1.webp"
+                        alt="Depoimento_1"
+
                         className="object-cover w-full h-full rounded-[1rem]" />
                 </div>
-                <div className=" h-96  rounded-[1rem]">
+                <div className=" h-99  rounded-[1rem]">
                     <LazyLoadImage
-                        src="media/livro.webp"
-                        alt="Livro"
-                        width={250}
-                        height={250}
+                        src="media/Reviews/Depoimento_2.webp"
+                        alt="Depoimento_2"
+
                         className="object-cover w-full h-full rounded-[1rem]" />
 
                 </div>
-                <div className=" h-96  rounded-[1rem]">
+                <div className=" h-99  rounded-[1rem]">
                     <LazyLoadImage
-                        src="media/parenteCasamento.webp"
-                        alt="ParenteCasamento"
-                        width={250}
-                        height={250}
+                        src="media/Reviews/Depoimento_4.webp"
+                        alt="Depoimento_4"
+
                         className="object-cover w-full h-full rounded-[1rem]" />
 
                 </div>
-                <div className=" h-96  rounded-[1rem]">
+                <div className=" h-99  rounded-[1rem]">
                     <LazyLoadImage
-                        src="media/casalPorta.webp"
-                        alt="CasalPorta"
-                        width={250}
-                        height={250}
-                        className="object-cover w-full h-full rounded-[1rem]" />
+                        src="media/Reviews/Depoimento_5.webp"
+                        alt="Depoimento_5"
 
-                </div>
-                <div className=" h-96  rounded-[1rem]">
-                    <LazyLoadImage
-                        src="media/blackwhite.webp"
-                        alt="BlackWhite"
-                        width={250}
-                        height={250}
-                        className="object-cover w-full h-full rounded-[1rem]" />
-
-                </div>
-                <div className=" h-96  rounded-[1rem]">
-                    <LazyLoadImage
-                        src="media/lightTeam.webp"
-                        alt="lightTeam"
-                        width={250}
-                        height={250}
-                        className="object-cover w-full h-full rounded-[1rem]" />
-
-                </div>
-                <div className=" h-96  rounded-[1rem]">
-                    <LazyLoadImage
-                        src="media/noivosCerimonia.webp"
-                        alt="NoivosCerimonia"
-                        width={250}
-                        height={250}
-                        className="object-cover w-full h-full rounded-[1rem]" />
-
-                </div>
-                <div className=" h-96  rounded-[1rem]">
-                    <LazyLoadImage
-                        src="media/terno.webp"
-                        alt="Terno"
-                        width={250}
-                        height={250}
                         className="object-cover w-full h-full rounded-[1rem]" />
 
                 </div>

@@ -95,8 +95,8 @@ function App() {
               Ainda bem que há empresas como a Votos Cerimonial, especializada em produzir casamentos. Com eles, o casal tem a chance de aproveitar o tão esperado dia sem estresse e nervosismo.</p>
             </div>
           </div>
-          <div id='casamentos' className='flex flex-row items-center justify-end' >
-          <CarouselReview/>
+          <div id='casamentos' className='flex flex-col sm:flex-row items-center justify-center sm:justify-end h-[30rem] sm:h-auto' >
+            <CarouselReview/>
           </div>
         </div>
       </SectionComponent>

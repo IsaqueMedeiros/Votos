@@ -15,16 +15,16 @@
  }
 /* Estilo para a seta esquerda */
 .slick-prev {
-  background-color: #333; /* Cor de fundo */
-  color: #0f0f0f; /* Cor do ícone da seta */
   margin-left: 3rem;
   z-index: 2;
 }
 
 /* Estilo para a seta direita */
 .slick-next {
-  background-color: #333;
-  color: #fff;
   margin-right: 3rem;
   z-index: 2;
+}
+.slick-prev:before,
+.slick-next:before {
+  color: #efc0b4 !important;
 }

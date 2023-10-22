@@ -1,4 +1,4 @@
-import Carousel from '../../components/Carousel/Carousel'
+import Carousel from '../../components/Carousel/CarouselCasamentos/Carousel'
 
 const CasamentosTemplate2 = () => {
     return (
