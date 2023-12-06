@@ -164,15 +164,6 @@ export default class Carousel extends Component {
                         className="object-cover w-full h-full rounded-[1rem]" />
 
                 </div>
-                <div className=" h-96  rounded-[1rem]">
-                    <LazyLoadImage
-                        src="media/Add_8.webp"
-                        alt="add3"
-                        width={250}
-                        height={250}
-                        className="object-cover w-full h-full rounded-[1rem]" />
-
-                </div>
             </Slider>
         );
     }

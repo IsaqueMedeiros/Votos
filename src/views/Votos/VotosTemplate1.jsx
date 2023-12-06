@@ -1,4 +1,4 @@
-import React from 'react'
+
 import LinkComponent from "../../components/LinkComponent";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 
@@ -20,7 +20,7 @@ const VotosTemplate1 = () => {
 
             <div className="flex flex-col items-center gap-4 w-full max-w-2xl">
                 <h3 className="text-4xl text-votosRed">Casamentos</h3>
-                <LinkComponent title="Ver mais" href="/casamentos" />
+                <LinkComponent title="Ver mais"  href="https://api.whatsapp.com/send?phone=31991542201&text=Olá, tenho interesse em saber como funciona o cerimonial da Votos para casamento" />
             </div>
         </div>
        </div>
